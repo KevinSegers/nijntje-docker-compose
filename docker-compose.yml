@@ -45,7 +45,7 @@ services:
       depends_on:
         - book-service
         - page-service
-      image: kevinsegers/nijntje-edge-service
+      image: kevinsegers/nijntje-edge-service/tree/production
       ports:
         - 8050:8050
       links:
