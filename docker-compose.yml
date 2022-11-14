@@ -53,7 +53,7 @@ services:
         - page-service
       environment:
         PAGE_SERVICE_BASEURL: page-service:8052
-        BOOK__SERVICE_BASEURL: book-service:8051
+        BOOK_SERVICE_BASEURL: book-service:8051
 
 volumes:
   mongodb_data_container:
